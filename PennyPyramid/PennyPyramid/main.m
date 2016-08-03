@@ -8,11 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "PennyPyramid.h"
-#import <string.h>
-#import <struct.h>
-#import <stdlib.h>
-#import <stdio.h>
-#
 
 int main(int argc, const char * argv[]) {
    @autoreleasepool {
@@ -20,7 +15,7 @@ int main(int argc, const char * argv[]) {
        PennyPyramid *schoolPyramid = [[PennyPyramid alloc]init];
        [schoolPyramid setBaseLayerDimensionsX:40];
        [schoolPyramid setBaseLayerDimensionsY:40];
-       schoolPyramid.allLayerInfo;
+       [schoolPyramid allLayerInfo];
         
         
     }
